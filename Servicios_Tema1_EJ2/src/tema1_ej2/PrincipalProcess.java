@@ -3,7 +3,7 @@ package tema1_ej2;
 import java.io.File;
 import java.io.IOException;
 
-public class PrincipalProcess extends Thread {
+public class PrincipalProcess {
 
 	String directorio;
 	String palabraBuscar;
@@ -13,10 +13,8 @@ public class PrincipalProcess extends Thread {
 		this.directorio=directorio;
 		this.palabraBuscar=palabraBuscar;
 		   
-	}
 	
-  
-	public void run() {
+
 	
 		try {
 			
@@ -34,7 +32,7 @@ public class PrincipalProcess extends Thread {
 					    	File archivo = new File(listado[i]);
 					    
 					    	if(archivo.exists()) {
-					    		WordFileReader wfr = new WordFileReader(null);
+					    		WordFileReader wfr;
 					    	}
 					    }
 			
@@ -43,11 +41,7 @@ public class PrincipalProcess extends Thread {
 			e.printStackTrace();
 		}
 		
-	}
 	
-	public static void main(String[] args) {
-
-		
-		
-	}
+}
+	
 }

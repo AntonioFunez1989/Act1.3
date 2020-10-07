@@ -6,11 +6,11 @@ public class FileData {
 	private String palabraBuscar = null;
 	private int ocurrencia = 0;
 	
-	FileData(String nombreFichero, String palabraBuscar, int ocurrencia){
+	FileData(String nombreFichero, String palabraBuscar, int ocurrencias){
 		
 		this.nombreFichero=nombreFichero;  
 		this.palabraBuscar=palabraBuscar;
-		this.ocurrencia=ocurrencia;
+
 		
 	}
 }
