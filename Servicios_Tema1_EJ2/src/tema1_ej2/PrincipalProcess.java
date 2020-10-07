@@ -12,7 +12,7 @@ public class PrincipalProcess extends Thread {
 		
 		this.directorio=directorio;
 		this.palabraBuscar=palabraBuscar;
-		
+		   
 	}
 	
 

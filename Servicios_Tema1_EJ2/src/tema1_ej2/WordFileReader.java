@@ -7,7 +7,7 @@ public class WordFileReader {
 	WordFileReader(FileData fd){
 		
 		this.fd=fd;
-		
+		 
 	}
 	
 }
