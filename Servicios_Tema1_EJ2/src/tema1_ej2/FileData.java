@@ -8,10 +8,9 @@ public class FileData {
 	
 	FileData(String nombreFichero, String palabraBuscar, int ocurrencia){
 		
-		this.nombreFichero=nombreFichero; 
+		this.nombreFichero=nombreFichero;  
 		this.palabraBuscar=palabraBuscar;
 		this.ocurrencia=ocurrencia;
 		
 	}
-	
 }

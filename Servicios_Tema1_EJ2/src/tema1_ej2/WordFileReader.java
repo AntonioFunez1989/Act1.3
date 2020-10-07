@@ -9,5 +9,4 @@ public class WordFileReader {
 		this.fd=fd;
 		 
 	}
-	
 }
